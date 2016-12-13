@@ -1,0 +1,6 @@
+2016-12-13
+
+# Added
+
+- mars-clock as an app
+- changelog.txt

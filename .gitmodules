@@ -1,0 +1,3 @@
+[submodule "mars-clock"]
+        path = cal/mars-clock
+        url = https://github.com/InterImm/mars-clock
