@@ -1,0 +1,24 @@
+{
+  "name": "martian-clock",
+  "version": "0.0.1",
+  "description": "星际移民中心制作的把地球时间转换为火星时间的工具",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . MartianClock --ignore=node_modules/electron-* --icon=icon.icns"
+  },
+  "repository": "https://github.com/InterImm/app",
+  "keywords": [
+    "火星",
+    "星际移民",
+    "星际移民中心",
+    "火星移民",
+    "火星时刻"
+  ],
+  "author": "星际移民中心",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.4.0"
+  }
+}
