@@ -8,9 +8,9 @@
 
 ```bash
 # Clone this repository
-git clone https://github.com/InterImm/app.git
+git clone --recursive https://github.com/InterImm/app.git
 # Go into the repository
-cd app
+cd app/cal/
 # Install dependencies
 npm install
 # Run the app
@@ -21,9 +21,9 @@ npm start
 
 ```bash
 # Clone this repository
-git clone https://github.com/InterImm/app.git
+git clone --recursive https://github.com/InterImm/app.git
 # Go into the repository
-cd app
+cd app/cal/
 # Install dependencies
 npm install
 # Modify
