@@ -1,6 +1,6 @@
 {
   "name": "martian-clock",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "星际移民中心制作的把地球时间转换为火星时间的工具",
   "main": "main.js",
   "scripts": {
