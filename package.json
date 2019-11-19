@@ -15,7 +15,6 @@
   },
   "build": {
     "appId": "com.interimm.app",
-    "category": "science.fiction",
     "dmg": {
       "contents": [
         {
