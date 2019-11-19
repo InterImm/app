@@ -10,6 +10,41 @@
     "dist-all": "electron-builder -mwl",
     "manual": "electron-packager . MartianClock --ignore=node_modules/electron-* --icon=icon.icns"
   },
+  "build": {
+    "appId": "com.interimm.app",
+    "category": "science.fiction",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    }
+  },
   "repository": "https://github.com/InterImm/app",
   "keywords": [
     "火星",
