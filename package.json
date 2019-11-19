@@ -8,10 +8,11 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
     "dist-all": "electron-builder -mwl",
+    "release-all": "electron-builder --mac --windows --linux --publish always",
     "manual": "electron-packager . MartianClock --ignore=node_modules/electron-* --icon=icon.icns",
     "postinstall": "electron-builder install-app-deps",
-    "build": "electron-builder --mac --windows --linux",
-    "release": "electron-builder --mac --windows --linux --publish always"
+    "build": "electron-builder",
+    "release": "electron-builder --publish always"
   },
   "build": {
     "appId": "com.interimm.app",

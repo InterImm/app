@@ -1,4 +1,4 @@
-name: Build/Release
+name: Build Test on Mac/Win/Linux
 
 on: push
 
@@ -10,7 +10,7 @@ jobs:
     # Platforms to build on/for
     strategy:
       matrix:
-        os: [macos-10.14, windows-2019]
+        os: [macos-10.14, windows-2019, ubuntu-18.04]
 
     steps:
     - uses: actions/checkout@v1
