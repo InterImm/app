@@ -1,6 +1,6 @@
 node_modules/*
-cal/node_modules/*
-cal/MartianClock-darwin-x64/*
-cal/MartianClock/*
-cal/MartianClock.zip
-cal/dist/*
+node_modules/*
+MartianClock-darwin-x64/*
+MartianClock/*
+MartianClock.zip
+dist/*
