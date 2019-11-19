@@ -55,7 +55,7 @@
     "火星移民",
     "火星时刻"
   ],
-  "author": "星际移民中心",
+  "author": "星际移民中心 <admin@interimm.org>",
   "license": "MIT",
   "devDependencies": {
     "electron": "^1.4.1",
