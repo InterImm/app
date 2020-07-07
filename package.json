@@ -59,7 +59,7 @@
   "author": "星际移民中心 <admin@interimm.org>",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^1.4.1",
+    "electron": "^7.2.4",
     "electron-builder": "^21.2.0",
     "electron-packager": "^8.4.0"
   }
